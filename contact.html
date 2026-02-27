@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact FreshNest | Book Carpet Cleaning in Austin, TX</title>
+  <meta name="description" content="Contact FreshNest Carpet Care for carpet cleaning in Austin, TX. Get a free quote, call now, or book an appointment online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">FN</span><span>FreshNest Carpet Care</span></a><button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button><nav class="site-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="service-areas.html">Service Areas</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="faqs.html">FAQs</a></li><li><a href="blog.html">Blog</a></li><li><a class="active" href="contact.html">Contact</a></li></ul></nav><a class="btn btn-sm" href="tel:+15125551234">Call Now</a></div></header>
+
+  <main id="main-content" class="section">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Book Carpet Cleaning in Austin, TX</h1>
+      <p class="section-intro">Call us directly or use the forms below for a free quote and appointment scheduling.</p>
+
+      <div class="split">
+        <section id="quote" class="form-card" aria-labelledby="quote-title">
+          <h2 id="quote-title">Get Free Quote</h2>
+          <form id="quoteForm" novalidate>
+            <label for="qName">Full Name</label>
+            <input id="qName" name="name" required aria-required="true">
+
+            <label for="qPhone">Phone</label>
+            <input id="qPhone" name="phone" type="tel" required aria-required="true" pattern="[0-9\-\+\s\(\)]{10,}">
+
+            <label for="qEmail">Email</label>
+            <input id="qEmail" name="email" type="email" required aria-required="true">
+
+            <label for="qService">Service Needed</label>
+            <select id="qService" name="service" required aria-required="true">
+              <option value="">Select service</option>
+              <option>Residential Carpet Cleaning</option>
+              <option>Commercial Carpet Cleaning</option>
+              <option>Deep Steam Cleaning</option>
+              <option>Stain Removal</option>
+              <option>Pet Odor Removal</option>
+              <option>Upholstery Cleaning</option>
+            </select>
+
+            <label for="qMessage">Details</label>
+            <textarea id="qMessage" name="message" rows="4" placeholder="Rooms, carpet condition, preferred timing"></textarea>
+
+            <button class="btn" type="submit">Submit Quote Request</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section id="booking" class="form-card" aria-labelledby="booking-title">
+          <h2 id="booking-title">Book Appointment</h2>
+          <form id="bookingForm" novalidate>
+            <label for="bName">Full Name</label>
+            <input id="bName" name="name" required aria-required="true">
+
+            <label for="bPhone">Phone</label>
+            <input id="bPhone" name="phone" type="tel" required aria-required="true" pattern="[0-9\-\+\s\(\)]{10,}">
+
+            <label for="bDate">Preferred Date</label>
+            <input id="bDate" name="date" type="date" required aria-required="true">
+
+            <label for="bTime">Preferred Time</label>
+            <input id="bTime" name="time" type="time" required aria-required="true">
+
+            <label for="bAddress">Service Address</label>
+            <input id="bAddress" name="address" required aria-required="true">
+
+            <button class="btn" type="submit">Request Booking</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
+
+      <section class="section split">
+        <div>
+          <h2>Contact Details</h2>
+          <p><strong>Phone:</strong> <a href="tel:+15125551234">(512) 555-1234</a></p>
+          <p><strong>Email:</strong> <a href="mailto:hello@freshnestcarpet.com">hello@freshnestcarpet.com</a></p>
+          <p><strong>Address:</strong> 100 Congress Ave, Austin, TX 78701</p>
+          <ul class="trust-list">
+            <li>Licensed</li>
+            <li>Insured</li>
+            <li>Eco-Friendly</li>
+            <li>Satisfaction Guarantee</li>
+          </ul>
+        </div>
+        <iframe title="FreshNest Carpet Care map location" src="https://www.google.com/maps?q=100+Congress+Ave,+Austin,+TX&output=embed" loading="lazy"></iframe>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footnote"><p>© 2026 FreshNest Carpet Care</p><a href="index.html">Home</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
