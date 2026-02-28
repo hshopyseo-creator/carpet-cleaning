@@ -9,6 +9,17 @@
     });
   }
 
+  const siteHeader = document.querySelector(".site-header");
+  if (siteHeader) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        siteHeader.classList.add("scrolled");
+      } else {
+        siteHeader.classList.remove("scrolled");
+      }
+    }, { passive: true });
+  }
+
   const revealTargets = document.querySelectorAll(".card, .service-block, .price-card, .testimonial-highlight, .form-card");
   const io = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
